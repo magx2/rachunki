@@ -1,4 +1,35 @@
 .editable{
 	text-decoration: underline;
-	text-underline: #6c757d;
+	text-decoration-color: #00b000;
+	text-decoration-style: wavy;
+}
+
+@media print {
+	.editable {
+		text-decoration: none;
+	}
+}
+
+p {
+	line-height: 1em;
+}
+
+.signature {
+	width: 30em;
+	height: 15em;
+	background: #bfced4;
+	padding: 1em;
+	position: relative;
+	margin-top: 5em;
+}
+
+.signature p {
+	color: white;
+}
+
+.bottom {
+	position:absolute;
+	bottom: 1em;
+	right: 1em;
+	font-size: large;
 }
