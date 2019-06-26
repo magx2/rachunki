@@ -29,3 +29,14 @@ p {
 	right: 1em;
 	font-size: large;
 }
+
+#controls {
+	position: fixed;
+	right: 1em;
+	top: 10%;
+}
+
+#controls button {
+	display: block;
+	margin-top: 1em;
+}
