@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<title>Rachunek</title>
+</head>
+<body>
+<div id="controls" class="d-print-none">
+	<button class="btn btn-primary" id="add-row">Dodaj wiersz towarem/usluga</button>
+</div>
+
+<div class="container">
+	<div class="text-right">
+		<span class="editable">Wroclaw</span>,&nbsp;<span id="date" class="editable">24.06.2019</span>&nbsp;r.
+	</div>
+	<div class="text-center">
+		<h1>Rachunek <span class="editable">01/2019</span></h1>
+		<p class="editable">Oryginał / Kopia</p>
+	</div>
+
+	<div class="row">
+		<div class="col-6">
+			<p class="editable"><strong>Big Boy Martin Grześlowski</strong></p>
+			<p class="editable">ul. Mickiewicza 5</p>
+			<p class="editable">58-100 Świdnica</p>
+			<p class="editable">NIP 884 271 4046</p>
+			<p class="editable">REGON 365111225</p>
+			<p class="editable">Tel. +48 577 987 272</p>
+			<p class="editable">martin.grzeslowski@gmail.com</p>
+		</div>
+
+		<div class="col-6 text-right">
+			<p class="editable"><strong>AC SOFTWARE SP. Z O.O.</strong></p>
+			<p class="editable">Armii Krajowej 2</p>
+			<p class="editable">Paczków, 48-370</p>
+			<p class="editable">NIP 753 236 52 20</p>
+			<p class="editable">KRS 0000314809</p>
+		</div>
+	</div>
+
+	<div>
+		<table id="expense-table" class="table table-bordered table-striped">
+			<thead>
+			<tr>
+				<th>Nr</th>
+				<th>Nazwa towaru / Usługi</th>
+				<th>Ilość</th>
+				<th>Cena jednostkowa</th>
+				<th>Wartość</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<td><span class="editable">1</span></td>
+				<td><span class="editable">wypelnij</span></td>
+				<td><span class="editable">1,00</span></td>
+				<td><span class="editable">xxx</span>&nbsp;zł</td>
+				<td><span class="editable">xxx</span>&nbsp;zł</td>
+			</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class="row">
+		<div class="col-6">
+			<p>Forma płatności: <strong>przelew</strong></p>
+			<p>Konto: <span class="editable">Mbank 91 1140 2004 0000 3102 5150 5805</span></p>
+			<p>Uwagi:</p>
+			<p><span class="editable">Nie podlega VAT ze względu na art. 113</span></p>
+		</div>
+		<div class="col-6 text-right">
+			<p>Razem <span class="editable font-weight-bold">3 000</span>&nbsp;zł</p>
+			<p>Słownie <span class="editable font-weight-bold">tysiąc 00/100</span></p>
+		</div>
+	</div>
+
+	<div class="text-right rounded signature float-right">
+		<p>Podpis osoby wystawiającej rachunek</p>
+		<p class="editable bottom">
+			Martin Grześlowski
+		</p>
+	</div>
+</div>
+
+<!-- Optional JavaScript -->
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
