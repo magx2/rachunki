@@ -21,3 +21,17 @@ $("#add-row").click(function () {
 		'<td><span class="editable">xxx</span>&nbsp;zł</td>' +
 		'</tr>');
 });
+
+function updateDate() {
+	var today = new Date();
+	var dd = String(today.getDate()).padStart(2, '0');
+	var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+	var yyyy = today.getFullYear();
+
+	today = dd + '.' + mm + '.' + yyyy + " r.";
+	$("#date").text(today)
+}
+
+$(document).ready(function () {
+	updateDate();
+});
